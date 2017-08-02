@@ -7,4 +7,5 @@ RUN apk add --no-cache \
 ADD entrypoint.sh /entrypoint.sh
 ADD sockd.conf /etc/sockd.conf
 EXPOSE 1080
+EXPOSE 12121
 ENTRYPOINT ["/entrypoint.sh"]
